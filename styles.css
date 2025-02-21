@@ -139,8 +139,9 @@ h2 {
     height: 100px;
     align-items: center;
     border-radius: 15px;
-    padding: 12px 12vh;
-    margin-bottom: 6vh;
+    padding: 60px 12vh;
+    margin-bottom: 3vh;
+    color:#E5E7EB;
 }
 
 .cta-btn{

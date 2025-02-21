@@ -34,12 +34,18 @@ li {
     padding-left:24px;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
     padding: 48px 12vh;
+    flex-shrink: 0;
 }
 
 .hero-container {
@@ -56,12 +62,13 @@ li {
 .hero-sub {
     color: #E5E7EB;
     font-size: 18px;
+    width: 35vh;
 }
 
 .image-placeholder{
-    width: 40vh;
+    width: 350px;
     height: 200px;
-    background-color: rgb(158, 156, 156);
+    background-color: rgba(158, 156, 156, 0.548);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,14 +88,20 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 48px 16vh;
+    margin: 0px 12vh;
     
+}
+
+h2 {
+    margin: 36px 0;
+    font-size: 36px;
+    color:#1F2937
 }
 
 .images-container{
     display: flex;
     gap: 48px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .image-with-text{
@@ -96,32 +109,38 @@ button {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 150px;
 }
 .image {
     height: 150px;
     width: 150px;
     background-color: #E5E7EB;
     border-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 15px;
     border-width: 5px; 
     border-style: solid;
     margin-bottom: 12px;
 }
 
 .quote {
+    background-color:#E5E7EB;
     font-size: 36px;
+    padding: 0 12vh;
     width: 60vh;
+    margin-top: 8vh;
 }
 
 .cta {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     background-color: #3882F6;
-    width: 76vh;
+    width: 100%;
     height: 100px;
     align-items: center;
     border-radius: 15px;
-    padding: 12px 78px;
+    padding: 12px 12vh;
+    margin-bottom: 6vh;
 }
 
 .cta-btn{
